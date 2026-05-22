@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slice of Windsor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+  <img src="images/banner.png" alt="Slice of Windsor Banner" class="banner-img">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Slice of Windsor</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Early Immigration.html">Early Immigration</a></li>
+            <li><a href="The Creation of Windsor Pizza.html">The Creation of Windsor Pizza</a></li>
+            <li><a href="Windsor Pizzerias.html">Windsor Pizzerias</a></li>
+            <li><a href="Sticking to the Recipe.html">Sticking to the Recipe</a></li>
+            <li><a href="Maintaing a Legacy.html">Maintaing a Legacy</a></li>
+            <li><a href="Attributions.html">Attributions</a></li>
+        </ul>
+    </nav>
+    <div class="flex-container">
+        <img height="250px" width="430px" src="images/windsor-pizzas3.jpg">
+        <div class="text-container">
+      
+            <p>Madonna, residents on Vancouver Island, and soldiers in Vietnam share an unexpected connection: their request for Windsor-style pizza. Windsor has a rich business history, shaped by its proximity to Detroit and its relationship to the North American auto industry. However, pizza-makers in Windsor have created a unique, internationally recognized industry that thrives on local, family-run restaurants. Windsor pizza, is known for its shredded pepperoni, canned mushrooms, Galati cheese, and crust dusted with cornmeal. Windsor Pizza companies have asserted a uniquely Canadian identity that counters American influence.</p>
+            <a href= "" class="cta-button">Learn More</a>
+            <a href="#about" class="cta-button secondary">About</a>
+        </div>
+    </div>
+ </header>  
+
+ <section class="intro-section">
+    <div class="flex-container">
+      <img src="images/logos.png" alt="Windsor pizza" class="side-image">
+      
+        <div class="text-container">
+            <h2>Windsor Pizzerias</h2>
+            <p>
+                Windsor has many pizzerias that helped create a legacy of internationally recognized pizza. Antoninos, Armandos, Capri, Naples, and Arcata are just few amoung the Windsor pizza tradtion. Hardwork, consistency, local ingredient sourcing, and family ownership are buisness practices that have allowed these companies to thrive. Italian immigrants who created these pizzerias throughout Windsor's history helped carry these pracitices. These buisness histories highlight what made Windsor Pizza a source of identity for Windsorites.
+            </p>
+        </div>
+    </div>
+</section>
+ 
+ <section>
+    <div class="flex-container">
+        <div class="interactive-pizza-container">
+            <h2>A Slice Of Windsor</h2>
+        </div>
+
+<div class="pizza-layout">
+
+  <!-- PIZZA -->
+  <div class="pizza-container">
+
+    <!-- Pizza Image -->
+    <img src="images/Pizza interact.png" alt="Pizza" class="pizza-img">
+
+   <!-- SVG Overlay -->
+<svg class="pizza-overlay" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Slice 1 (Top Right) -->
+  <path class="slice" data-info="Early Immigration"
+    d="M100 100 L100 0 A100 100 0 0 1 186 50 Z" />
+
+  <!-- Slice 2 -->
+  <path class="slice" data-info="The Creation of Windsor Pizzas"
+    d="M100 100 L186 50 A100 100 0 0 1 186 150 Z" />
+
+  <!-- Slice 3 -->
+  <path class="slice" data-info="Windsor Pizzerias"
+    d="M100 100 L186 150 A100 100 0 0 1 100 200 Z" />
+
+  <!-- Slice 4 (Bottom Left) -->
+  <path class="slice" data-info="Sticking to the Recipe"
+    d="M100 100 L100 200 A100 100 0 0 1 14 150 Z" />
+
+  <!-- Slice 5 -->
+  <path class="slice" data-info="Maintaining a Legacy"
+    d="M100 100 L14 150 A100 100 0 0 1 14 50 Z" />
+
+  <!-- Slice 6 -->
+  <path class="slice" data-info="About"
+    d="M100 100 L14 50 A100 100 0 0 1 100 0 Z" />
+
+</svg>
+  </div>
+
+<!-- INFO PANEL -->
+<div class="info-panel">
+  <h3 id="info-title">Take A Slice</h3>
+
+  <p id="info-text">
+    A Slice of Windsor has six unique sections, hover over a slice to learn more.
+  </p>
+
+  <a id="info-button" href="#" class="cta-button" style="display:none;">
+    Learn More
+  </a>
+</div>
+
+</div>
+
+ <script>
+const sliceContent = {
+  "Early Immigration": {
+    title: "Early Immigration",
+    text: "Early immigration brought Italian families to Windsor in the late nineteenth and early twentieth centuries. These newcomers established tight-knit communities that relied on food, family businesses, and shared traditions to survive economic uncertainty and discrimination.",
+    link: "Early Immigration.html"
+  },
+
+  "The Creation of Windsor Pizzas": {
+    title: "The Creation of Windsor Pizzas",
+    text: "Italian-owned bakeries, groceries, and pizzerias became community hubs. These family-run businesses preserved cultural traditions while contributing to Windsor’s local economy and shaping a distinctly Italian-Canadian identity.",
+    link: "The Creation of Windsor Pizza.html"
+  },
+
+  "Windsor Pizzerias": {
+    title: "Windsor Pizzerias",
+    text: "Windsor-style pizza emerged as a recognizable product defined by shredded pepperoni, canned mushrooms, Galati cheese, and a thin crust. Its consistency and flavour helped it gain national and international recognition.",
+    link: "Windsor Pizzerias.html"
+  },
+
+  "Sticking to the Recipe": {
+    title: "Sticking to the Recipe",
+    text: "Unlike large American pizza chains, Windsor pizzerias resisted standardization. Maintaining traditional methods reinforced authenticity and distinguished local businesses from corporate competitors.",
+    link: "Sticking to the Recipe.html"
+  },
+
+  "Maintaining a Legacy": {
+    title: "Maintaining a Legacy",
+    text: "Today, Windsor pizza represents more than food. It symbolizes family labour, cultural memory, and resistance to American commercial dominance in a border city.",
+    link: "Maintaing a Legacy.html"
+  },
+
+  "About": {
+    title: "About This Project",
+    text: "The Windsor Pizza Project explores how food history can reveal broader stories about migration, identity, and local economic resilience.",
+    link: "about.html"
+  }
+};
+
+const slices = document.querySelectorAll(".slice");
+
+const infoTitle = document.getElementById("info-title");
+const infoText = document.getElementById("info-text");
+const infoButton = document.getElementById("info-button");
+
+slices.forEach(slice => {
+
+  slice.addEventListener("click", () => {
+
+    const content = sliceContent[slice.dataset.info];
+
+   if (content) {
+  infoTitle.textContent = content.title;
+  infoText.textContent = content.text;
+
+  infoButton.href = content.link;
+  infoButton.style.display = "inline-block";
+}
+
+  });
+
+});
+</script>
+
+</body>
+</html> 
