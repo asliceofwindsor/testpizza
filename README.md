@@ -1,2 +1,0 @@
-# sliceofwindsor
-# sliceofwindsortest
