@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slice of Windsor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <header>
+  <div class="top-spacer-bar"></div>
+
+<img src="images/banner.jpeg" alt="Slice of Windsor Banner" class="banner-img">
+ </header>
+
+<nav class="site-header">
+<ul>
+<li>
+    <a href="index.html" class="logo-link">
+        <img src="images/Nav Logo.jpeg" alt="A Slice of Windsor Logo" class="nav-logo">
+    </a>
+</li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Early Immigration.html">Early Immigration</a></li>
+            <li><a href="The Creation of Windsor Pizza.html">The Creation of Windsor Pizza</a></li>
+            <li><a href="Windsor Pizzerias.html">Windsor Pizzerias</a></li>
+            <li><a href="Sticking to the Recipe.html">Sticking to the Recipe</a></li>
+            <li><a href="Maintaing a Legacy.html">Maintaing a Legacy</a></li>
+            <li><a href="Attributions.html">Attributions</a></li>
+</ul>
+</nav>
+
+<div class="header-line"></div>
+
+<section class="intro-section">            
+    <div class="flex-container">
+      
+        <div class="text-container">
+            <h2>Windsor Pizzerias</h2>
+                        <p>Madonna, residents on Vancouver Island, and soldiers in Vietnam share an unexpected connection: their request for Windsor-style pizza. Windsor has a rich business history, shaped by its proximity to Detroit and its relationship to the North American auto industry. However, pizza-makers in Windsor have created a unique, internationally recognized industry that thrives on local, family-run restaurants. Windsor pizza, is known for its shredded pepperoni, canned mushrooms, Galati cheese, and crust dusted with cornmeal. Windsor Pizza companies have asserted a uniquely Canadian identity that counters American influence.</p>
+
+            <p>
+                Windsor has many pizzerias that helped create a legacy of internationally recognized pizza. Antoninos, Armandos, Capri, Naples, and Arcata are just few amoung the Windsor pizza tradtion. Hardwork, consistency, local ingredient sourcing, and family ownership are buisness practices that have allowed these companies to thrive. Italian immigrants who created these pizzerias throughout Windsor's history helped carry these pracitices. These buisness histories highlight what made Windsor Pizza a source of identity for Windsorites.
+            </p>
+          <a href= "" class="cta-button">Learn More</a>
+            <a href="#about" class="cta-button secondary">About</a>
+        </div>
+    </div>
+</section>
+
+<div class="header-line"></div>
+ 
+<section>
+    <div class="flex-container">
+        <div class="interactive-pizza-container">
+            <h2>A Slice Of Windsor</h2>
+        </div>
+
+<div class="pizza-layout">
+
+  <!-- PIZZA -->
+  <div class="pizza-container">
+
+    <!-- Pizza Image -->
+    <img src="images/Pizza interact.png" alt="Pizza" class="pizza-img">
+
+   <!-- SVG Overlay -->
+<svg class="pizza-overlay" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet">
+
+  <path class="slice" data-info="Early Immigration"
+    d="M100 100 L100 0 A100 100 0 0 1 186 50 Z" />
+
+  <path class="slice" data-info="The Creation of Windsor Pizzas"
+    d="M100 100 L186 50 A100 100 0 0 1 186 150 Z" />
+
+  <path class="slice" data-info="Windsor Pizzerias"
+    d="M100 100 L186 150 A100 100 0 0 1 100 200 Z" />
+
+  <path class="slice" data-info="Sticking to the Recipe"
+    d="M100 100 L100 200 A100 100 0 0 1 14 150 Z" />
+
+  <path class="slice" data-info="Maintaining a Legacy"
+    d="M100 100 L14 150 A100 100 0 0 1 14 50 Z" />
+
+  <path class="slice" data-info="About"
+    d="M100 100 L14 50 A100 100 0 0 1 100 0 Z" />
+
+</svg>
+  </div>
+
+<!-- INFO PANEL -->
+<div class="info-panel">
+  <h3 id="info-title">Take A Slice</h3>
+
+  <p id="info-text">
+    A Slice of Windsor has six unique sections, hover over a slice to learn more.
+  </p>
+
+  <a id="info-button" href="#" class="cta-button" style="display:none;">
+    Learn More
+  </a>
+</div>
+</section>
+
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- COLUMN 1 -->
+        <div class="footer-column">
+            <h4>A Slice of Windsor</h4>
+            <p>
+                A Slice of Windsor is an undergraduate research project created by Ally Peddie, B.A. (History), B.Ed. Projects like these are possible due to the funding of the Canadian Buisness History Association.
+            </p>
+        </div>
+  <!-- COLUMN 3 -->
+        <div class="footer-column">
+            <h4>Contact</h4>
+            <p>
+              To learn more about the Canadian Buisness History Association please vist <a href="https://www.cbha.ca/"> cbha.ca.</a> For any inquires related to information on this website please contact asliceofwindsor@gmail.com. 
+            </p>
+        </div>
+        <!-- COLUMN 3 -->
+        <div class="footer-column">
+            <h4>Attributions</h4>
+            <p>
+          Please visit the Attributions page to view all sources used on this site. All referenced content and images remain the property of their respective owners.
+            </p>
+        </div>
+
+    </div>
+
+<div class="footer-funding">
+    Funded by the Canadian Business History Association
+</div>
+
+
+<div class="footer-logos">
+
+    <img src="images/CBHA.jpg" alt="Canadian Business History Association logo" class="footer-logo">
+
+
+</div>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2026</p>
+    </div>
+
+</footer>
+
+<script>
+const sliceContent = {
+  "Early Immigration": {
+    title: "Early Immigration",
+    text: "Early immigration brought Italian families to Windsor in the late nineteenth and early twentieth centuries. These newcomers established tight-knit communities that relied on food, family businesses, and shared traditions to survive economic uncertainty and discrimination.",
+    link: "Early Immigration.html"
+  },
+  "The Creation of Windsor Pizzas": {
+    title: "The Creation of Windsor Pizzas",
+    text: "Italian-owned bakeries, groceries, and pizzerias became community hubs. These family-run businesses preserved cultural traditions while contributing to Windsor’s local economy and shaping a distinctly Italian-Canadian identity.",
+    link: "The Creation of Windsor Pizza.html"
+  },
+  "Windsor Pizzerias": {
+    title: "Windsor Pizzerias",
+    text: "Windsor-style pizza emerged as a recognizable product defined by shredded pepperoni, canned mushrooms, Galati cheese, and a thin crust. Its consistency and flavour helped it gain national and international recognition.",
+    link: "Windsor Pizzerias.html"
+  },
+  "Sticking to the Recipe": {
+    title: "Sticking to the Recipe",
+    text: "Unlike large American pizza chains, Windsor pizzerias resisted standardization. Maintaining traditional methods reinforced authenticity and distinguished local businesses from corporate competitors.",
+    link: "Sticking to the Recipe.html"
+  },
+  "Maintaining a Legacy": {
+    title: "Maintaining a Legacy",
+    text: "Today, Windsor pizza represents more than food. It symbolizes family labour, cultural memory, and resistance to American commercial dominance in a border city.",
+    link: "Maintaing a Legacy.html"
+  },
+  "About": {
+    title: "About This Project",
+    text: "The Windsor Pizza Project explores how food history can reveal broader stories about migration, identity, and local economic resilience.",
+    link: "about.html"
+  }
+};
+
+const slices = document.querySelectorAll(".slice");
+const infoTitle = document.getElementById("info-title");
+const infoText = document.getElementById("info-text");
+const infoButton = document.getElementById("info-button");
+
+slices.forEach(slice => {
+  slice.addEventListener("click", () => {
+    const content = sliceContent[slice.dataset.info];
+    if (content) {
+      infoTitle.textContent = content.title;
+      infoText.textContent = content.text;
+      infoButton.href = content.link;
+      infoButton.style.display = "inline-block";
+    }
+  });
+});
+</script>
+
+
+</body>
+
+</html>
