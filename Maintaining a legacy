@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Maintaing a Legacy| Slice of Windsor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="Early-Immigration">
+
+    <!-- TOP SPACER BAR -->
+<div class="top-spacer-bar"></div>
+
+
+<!-- HEADER -->
+<header>
+    <img src="images/banner.jpeg" alt="Slice of Windsor Banner" class="banner-img">
+</header>
+
+<!-- NAVIGATION (TEMPLATE LAYOUT APPLIED) -->
+<nav class="site-header">
+<ul>
+    <li>
+        <a href="index.html" class="logo-link">
+            <img src="images/Nav Logo.jpeg" alt="A Slice of Windsor Logo" class="nav-logo">
+        </a>
+    </li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="Early Immigration.html">Early Immigration</a></li>
+    <li><a href="The Creation of Windsor Pizza.html">The Creation of Windsor Pizza</a></li>
+    <li><a href="Windsor Pizzerias.html">Windsor Pizzerias</a></li>
+    <li><a href="Sticking to the Recipe.html">Sticking to the Recipe</a></li>
+    <li><a href="Maintaing a Legacy.html">Maintaing a Legacy</a></li>
+    <li><a href="Attributions.html">Attributions</a></li>
+</ul>
+</nav>
+
+<!-- HERO / INTRO -->
+<section id="section">
+    <div class="flex-container">
+
+        <div class="text-container">
+            <h1>Maintaing a Legacy</h1>
+
+            <p>
+                Italian migration to Windsor laid the foundation for the business traditions,
+                family run buisnesses, and cultural identity that would later shape Windsor-style pizza.
+            </p>
+
+            <a href="#section1" class="cta-button">Begin Exploring</a>
+
+            <div class="scroll-spacer"></div>
+            <div class="header-line"></div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SECTION 1 -->
+<section id="section1" class="intro-section">
+
+<div class="flex-container">
+
+<div class="image-column">
+
+<!-- IMAGE 1 + CAPTION 1 -->
+<div class="image-block">
+    <img src="images/Our-Legacy-Young-Joe2.png"
+    alt="Young Joe"
+    class="side-image">
+
+    <p class="caption">
+    Antonino’s Original Pizza owner Joe Ciaravino working in the family pizzeria at age 13 (1978). Joe has claimed this was the last day at Arcata and he pretended to make a Pizza. Retrived from Antonino’s Original Pizza.
+    </p>
+</div>
+
+<!-- IMAGE 2 + CAPTION 2 -->
+<div class="image-block">
+    <img src="images/joe and vita.jpg"
+    alt="Joe and Vita"
+    class="side-image">
+
+    <p class="caption">
+Antonino’s Original Pizza owner Joe Ciaravino and his mother Vita stand proudly in front of the first Antonino’s Original Pizza location in South Windsor, Ontario (2003). Retrieved from Antonino's Original Pizza.
+    </p>
+</div>
+
+<div class="image-block">
+    <img src="images/joe Antoninos.webp"
+    alt="Joe"
+    class="side-image">
+
+    <p class="caption">
+Antonino’s Original Pizza owner Joe Ciaravino outside his new South Windsor location. Retrieved from Antonino's Original Pizza.
+    </p>
+</div>
+
+</div>
+
+<div class="text-container">
+
+<h2>Antonino's Original Pizza</h2>
+
+<p>
+Joe Ciaravino grew up watching his parents own Arcata Pizzeria in the early 1970s and occasionally helped at the shop, such as helping his mom shred cheese. As Joe got older, he attended the University of Windsor and earned a Master of Business Administration. Joe knew he loved working in business as he started a summer business and loved it. Although he did try running a business in the computer field, he eventually went back to a family tradition. Around this time, he told his mom he wanted to open a pizzeria, and his mom was not thrilled. Joe did not know how to make a pizza and had a real learning curve. In 1999, with his mom's help, Vita opened the first Antoninos Original Pizza location on the corner of North Talbot Rd. Joe named the locations after his father as a tribute. On the first day, the Pizzeria made only $50, but would soon grow into one of the highest-volume pizzerias in Windsor-Essex.
+</p>
+
+<p>
+During an interview with Joe about the factors that contributed to Antonino's success over the years, quality was a constant. Antoninos has strived to deliver a quality product while maintaining the integrity of Windsor-style pizza. Joe explained how he has stuck to not offering delivery as he believes it destroys the pizza's quality as it sits in the cardboard box and delivery bag. Joe faced criticism for this choice as competitors expanded into the delivery market. The takeout-only experience encourages interaction between employees and customers. In addition, Joe explained that one unique experience of Windsor-style pizza is the “chaotic ballet” of their open-concept kitchen, which allows customers to see the action and pizzas being made rather than people behind a wall. Joe explained that another key to Antonino's success has been not discounting the pizza but offering meal deals so the premium product (the pizza) is not compromised. With this business tactic, Antoninos has introduced customers to new products such as canned pop, breadsticks, and cannolis.
+</p>
+
+<p>
+Aside from quality, Joe emphasized how his employees and customers have made the business he has today. Employees at Antoninos have developed a great working environment, creating friendships and bonds. For example, Antoninos often holds staff parties for its staff. The classic legacy of family environments has continued with pizzerias like Antoninos, as managers stay for 15 years and young students work their first job and learn from their co-workers.
+</p>
+
+<p>
+Antoninos has now expanded to 5 locations across Windsor-Essex County, including the original location in South Windsor (which built a new and larger location next door in 2019), LaSalle, Riverside, Techumseh, and Lemington. Antoninos honour the tradition of past Windsor Pizza makers and maintains a legacy focused on quality and creating a family environment. These key characteristics of the Windsor Pizza industry have created a legacy that has helped Windsor Pizza create an identity for Windsor-Essex.
+</p>
+
+</div>
+
+</div>
+<div class="header-line"></div>
+
+</section>
+
+<!-- SECTION 2 -->
+<section class="intro-section">
+
+<div class="flex-container">
+
+<div class="image-column">
+
+<div class="image-block">
+<img src="images/armandos3.webp"
+alt="Pizza Expo"
+class="side-image">
+
+<p class="caption">
+Co-owner John Pizzo prepares the dough at the 30th annual International Pizza Expo in Las Vegas. (Photo courtesy of Dean Litster). Retrived from The Windsor Star.
+</p>
+</div>
+
+<div class="image-block">
+<img src="images/PizzaPoster-683x1024.jpg"
+alt="Poster"
+class="side-image">
+
+<p class="caption">
+Official poster for "The Pizza City You’ve Never Heard Of" by George Kalivas and Tristan Laughton. Retrived from Windsorlife.
+</p>
+</div>
+
+</div>
+
+<div class="text-container">
+
+<h2>The Pizza City Everyone Is Talking About</h2>
+
+<p>
+Windsor Pizza has grown beyond the southernmost city in Canada and has gained local, national, and international recognition. Many of Windsor's local pizzerias have won countless awards from bracket-style competitions and community votes. In addition, Windsor Pizza has gained international attention, specifically at the Las Vegas Pizza Expo, where Armando’s Pizza won first place in the international pizza category and third place overall in 2014. In addition to awards, Windsor Pizza has gained significant media attention. Throughout the decades, Windsor Pizzerias have been in the spotlight in local and international news and on blogs. Along with news media, Windsor Pizza has gained significant social media attention. For example, a local Windsor teen's post on X (formerly Twitter) in 2024 gained millions of views, shocking people with the pizza's unique style.
+</p>
+
+<p>
+In 2021, George Kalivas (Windsor native) and Tristan Laughton joined forces to make a documentary about Windsor-style pizza called “The Pizza City You’ve Never Heard Of.” The documentary explored local pizzerias in Windsor and explained what makes a Windsor pizza unique. Although Windsor is small in comparison to pizza giants like New York and Chicago, Windsor is becoming the pizza city you have heard of. Windsor Pizza has received recognition for generations and has only expanded in recent years. Many local pizzerias have stated that customers often come out of town for their pizza. For example, Kevin from Capri said there is no one occurrence that stands out to him of someone coming from out of town, because it happens so often. Bob from Arcata has stated that recently, a couple from San Jose, California, visited his location after seeing the documentary. In addition, people are not just coming to Windsor for pizza; they are ordering it delivered to them. For example, in 2015, a couple ordered a pizza for a Super Bowl party in Regina, and in 2022, a B.C. man spent $600 to have pizza shipped to him. This tradition of ordering Windsor-Style pizza dates back to Vietnam, when two G.I.s tried to fly in some Windsor pizza after seeing an ad. The Windsor Pizza Industry has transformed into a recognizable pizza market that has carried a tradition throughout generations of pizza makers. Although Windsor is often overshadowed, its pizza has given it a reputation worth talking about.
+</p>
+
+</div>
+
+</div>
+<div class="header-line"></div>
+
+</section>
+
+<!-- SECTION 3 -->
+<section class="intro-section">
+
+<div class="flex-container">
+
+<div class="text-container">
+
+<h2>Canadian Influence</h2>
+
+<p>
+Concerns about American influence have risen sharply over recent decades, but Windsor's pizza has helped maintain an identity and even sprinkle Canadian influence into America. For example, an Armando's pizza recently opened in Clawson, Michigan. This location brings the signature Windsor-style pizza with shredded and canned mushrooms to America. Although it is in the Windsor style, it lacks the signature Galati Cheese due to border restrictions. The availability of Windsor pizza in Detroit signifies recognition of Windsor-style pizza, and more food lovers are eager to try it. Americans have increasingly wanted to try Windsor's pizza, and according to Joe, even come to Windsor for Pizza tours as part of various travel excursions. Although big chains do exist within Windsor, as Bob from Arcata identified, establishments like Domino's and Little Caesars are not their competition. Windsor Pizza has created its own collective identity based on family traditions, quality, and relationships.
+</p>
+
+</div>
+
+<div class="image-column">
+
+<div class="image-block">
+<img src="images/Armandos Clawson.webp"
+alt="Armando's Pizza - Clawson"
+class="side-image">
+
+<p class="caption">
+Armando's Pizza - Clawson Michigan. Retrived from Armando's Pizza - Clawson.
+</p>
+</div>
+
+</div>
+
+</div>
+<div class="header-line"></div>
+
+</section>
+
+<!-- SECTION 5 -->
+<section class="intro-section">
+
+<div class="flex-container">
+
+<img src="images/placeholder-foundation.jpg"
+alt="Windsor Italian community"
+class="side-image">
+
+<div class="text-container">
+
+<h2>The Pizza City</h2>
+
+<p>
+Windsor, a town in Southern Ontario, is often overshadowed by Detroit and dismissed as lacking a distinct identity. Windsor is often referred to as the “Rose City” due to a campaign in the early 1960s. Windsor is also known for its automotive industry, with production at the Stellantis Chrysler and Ford Motor Company plants. Finally, Windsor often receives credit from historians for its role during Prohibition and for the development of major businesses such as Hiram Walker. Windsor's identity, history, and business notoriety extend beyond these three areas. Windsor is arguably a prominent pizza city with a rich, well-developed pizza industry that is incredibly unique. The early migration of Italian families in the 1900s to Canada and America highlighted how Italian communities established their culture in a new country. Windsor was a prosperous center for economic opportunity for Italian families, which would later encourage the pizza business. Businesses like Volcano and local pizza makers like Tony Ciaravino helped lay the foundation for the Windsor pizza industry as it exists today. From these, many modern pizzerias were established in Windsor and developed a family atmosphere, often run by immigrant families. These pizza locations connected those across Windsor, creating a loyal customer base who favoured the quality and experience of Windsor pizza. Even under pressure from big chains, local pizzerias have resisted the invasion and maintained their dominance in the pizza market. Today, local pizzerias continue to hold the legacy that makes Windsor the Pizza City. Although Windsor is a small city that many ignore, the Windsor Pizza Industry has given it a slice of identity in the competitive pizza community, separating it from the crust of American culture.
+</p>
+
+
+
+</div>
+
+</div>
+
+</section>
+
+</section>
+<div class="section-nav">
+    <a href="Sticking to the Recipe.html" class="cta-button">
+        Previous Section
+    </a>
+
+    <a href="Maintaing a Legacy.html" class="cta-button">
+        Back to Top
+    </a>
+
+    <a href="Attributions.html" class="cta-button">
+        Attributions
+    </a>
+    
+</div>
+       <div class="scroll-spacer1"></div>
+</div>
+  
+
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- COLUMN 1 -->
+        <div class="footer-column">
+            <h4>A Slice of Windsor</h4>
+            <p>
+                A Slice of Windsor is an undergraduate research project created by Ally Peddie, B.A. (History), B.Ed. Projects like these are possible due to the funding of the Canadian Buisness History Association.
+            </p>
+        </div>
+  <!-- COLUMN 3 -->
+        <div class="footer-column">
+            <h4>Contact</h4>
+            <p>
+              To learn more about the Canadian Buisness History Association please vist <a href="https://www.cbha.ca/"> cbha.ca.</a> For any inquires related to information on this website please contact asliceofwindsor@gmail.com. 
+            </p>
+        </div>
+        <!-- COLUMN 3 -->
+        <div class="footer-column">
+            <h4>Attributions</h4>
+            <p>
+          Please visit the Attributions page to view all sources used on this site. All referenced content and images remain the property of their respective owners.
+            </p>
+        </div>
+
+    </div>
+
+<div class="footer-funding">
+    Funded by the Canadian Business History Association
+</div>
+
+
+<div class="footer-logos">
+
+    <img src="images/CBHA.jpg" alt="Canadian Business History Association logo" class="footer-logo">
+
+
+</div>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2026</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
