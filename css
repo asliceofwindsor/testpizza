@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* =========================
+   VARIABLES
+========================= */
+:root {
+    --base-color: #ffffff; 
+    --text-color: #000000;
+    --primary-color: #8B4531;
+    --secondary-color: #8f763c;
+    --color-1: #ffffff;
+}
+
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   GLOBAL
+========================= */
+html {
+    font-family: 'Avenir', serif;
+    color: var(--text-color);
+}
+
+body {
+    margin: 0;        /* IMPORTANT: removes side gaps */
+    padding: 0;
+    background-color: #fff;
+    text-align: left;
+}
+
+/* =========================
+   FULL WIDTH HEADER SYSTEM
+========================= */
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    border-radius: 0; /* prevents “boxed” look */
+}
+
+/* Banner FULL BLEED */
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+/* NAV FULL BLEED */
+nav {
+    width: 100vw;
+    margin: 0;
+
+    background-color: #8B4531;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+
+    margin-left: calc(50% - 50vw);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-right: 2px solid black;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MOBILE NAV */
+@media (max-width: 900px) {
+    nav li {
+        min-width: 100%;
+        border-right: none;
+        border-bottom: 2px solid black;
+    }
+
+    nav li:first-child {
+        margin-right: 0;
+    }
+}
+
+/* =========================
+   MAIN LAYOUT CONTAINER
+========================= */
+header,
+section {
+    width: min(95em, 100%);
+    margin: 2rem auto;
+    padding: 2rem;
+
+    background-color: var(--color-1);
+    border-radius: 1em;
+}
+
+/* =========================
+   FLEX LAYOUT BASE
+========================= */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-container {
+    flex: 1;
+}
+
+/* =========================
+   TYPOGRAPHY
+========================= */
+h1 {
+    font-size: 2.5rem;
+    color: #393939
+}
+
+h2 {
+    margin-bottom: 10px;
+  font-family: 'Times', Times, serif;
+  font-weight: bold;
+  color: #393939;
+}
+
+.text-container p {
+    margin: 0.75em 0 1em;
+    font-size: 1.25rem;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+
+    color: white;
+    background-color: var(--primary-color);
+
+    padding: 0.75em 2.25em;
+    border-radius: 5em;
+    font-weight: 600;
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+/* =========================
+   IMAGE STYLES
+========================= */
+.side-image {
+    width: 300px;
+    height: auto;
+}
+
+/* =========================
+   INTERACTIVE PIZZA
+========================= */
+.interactive-pizza-container {
+    padding: 1em;
+    background-color: #f6ecd2;
+    border: 10px solid #396d05;
+    border-radius: 1em;
+
+    text-align: center;
+}
+
+.interactive-pizza-container h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+/* SVG */
+svg {
+    display: block;
+}
+
+.slice {
+    fill: rgba(255,255,255,0);
+    stroke: transparent;
+    cursor: pointer;
+
+    transition: fill 0.25s ease, transform 0.25s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.slice:hover {
+    fill: rgba(255,255,255,0.311);
+    transform: scale(1.03);
+}
+
+.slice-text {
+    font-size: 10px;
+    fill: #000;
+    text-anchor: middle;
+    pointer-events: none;
+    font-weight: bold;
+}
+
+/* =========================
+   PIZZA LAYOUT
+========================= */
+.pizza-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3em;
+    flex-wrap: nowrap;
+}
+
+.pizza-container {
+    position: relative;
+    width: 55vw;
+    max-width: 550px;
+    aspect-ratio: 1 / 1;
+}
+
+.pizza-img,
+.pizza-overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* INFO PANEL */
+.info-panel {
+    flex: 0 1 400px;
+    background-color: var(--color-2);
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+.info-panel h3 {
+    margin-bottom: 0.5em;
+    color: var(--primary-color);
+}
+
+.info-panel p {
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+/* =========================
+   EARLY IMMIGRATION SECTION
+========================= */
+.Early-Immigration .side-image {
+    width: 320px;
+    border-radius: 1em;
+}
+
+.Early-Immigration .caption {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/* =========================
+   IMAGE COLUMN SYSTEM
+========================= */
+.image-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 320px;
+}
+
+.image-block {
+    margin-bottom: 2em;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 1em;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+/* =========================
+   FINAL SECTION OVERRIDES
+========================= */
+.final-section .flex-container {
+    align-items: stretch;
+    gap: 30px;
+}
+
+.final-section .text-container {
+    justify-content: center;
+}
+
+.final-section .image-column {
+    flex: 1.3;
+    max-width: none;
+}
+
+/* =========================
+   SECTION 10 LAYOUT
+========================= */
+.section10-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.section10-container .text-container {
+    flex: 1;
+}
+
+.section10-container .image-column {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex: 1.6;
+    max-width: none;
+}
+
+.section10-container .image-block {
+    flex: 1;
+}
+
+.section10-container .image-block img {
+    width: 100%;
+}
+
+/* =========================
+   FULL BLEED HEADER FIX
+========================= */
+header {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+
+    margin-left: calc(50% - 50vw);
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.intro-section {
+    scroll-margin-top: 140px;
+}
+.scroll-spacer {
+    height: 100px; /* match your sticky header height */
+}
+.scroll-spacer1 {
+    height: 25px; /* match your sticky header height */
+}
+.header-line {
+    height: 2px;
+    background: #8B4531;
+    width: 100%;
+}
+
+.site-footer {
+    background-color: #f6ecd2;
+    color: #000;
+        padding: 60px 40px 20px;
+    font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    border-top: 2px solid #8B4531;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-column h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    color: #8B4531;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #444;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+.footer-funding {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #555;
+    margin-top: 30px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.9;
+    transition: opacity 0.2s ease;
+}
+
+.footer-logo:hover {
+    opacity: 1;
+}
+/* Logo inside navbar */
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-logo{
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+.section-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    text-align: center;
+}
+.top-spacer-bar {
+    width: 100%;
+    height: 40px;              /* adjust thickness */
+    background-color: #8B4531; /* or your theme colour */
+}
