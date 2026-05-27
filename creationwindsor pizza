@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Creation of Windsor Pizza</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="Early-Immigration">
+    <div class="top-spacer-bar"></div>
+
+<header>
+
+<img src="images/banner.jpeg" alt="Slice of Windsor Banner" class="banner-img">
+
+</header>
+
+<nav class="site-header">
+<ul>
+<li>
+    <a href="index.html" class="logo-link">
+        <img src="images/Nav Logo.jpeg" alt="A Slice of Windsor Logo" class="nav-logo">
+    </a>
+</li>
+
+<li><a href="about.html">About</a></li>
+<li><a href="Early Immigration.html">Early Immigration</a></li>
+<li><a href="The Creation of Windsor Pizza.html">The Creation of Windsor Pizza</a></li>
+<li><a href="Windsor Pizzerias.html">Windsor Pizzerias</a></li>
+<li><a href="Sticking to the Recipe.html">Sticking to the Recipe</a></li>
+<li><a href="Maintaing a Legacy.html">Maintaing a Legacy</a></li>
+<li><a href="Attributions.html">Attributions</a></li>
+
+</ul>
+</nav>
+
+<!-- SECTION 1 -->
+<section id="section" class="intro-section">
+
+<div class="flex-container">
+
+<div class="text-container">
+<h1>The Creation of Windsor Pizza</h1>
+
+<p>
+Prior to World War II Windosr had various Italian restaurants, clubs, and businesses. Some restaurants that were opened even served Pizza. However, it was not until after World War II when Italian immigration to Windsor rapidly increased. With the new wave of immigrants, a new industry was born.
+</p>
+
+<a href="#section1" class="cta-button">Begin Exploring</a>
+
+</div>
+
+</div>
+
+<div class="scroll-spacer"></div>
+<div class="header-line"></div>
+
+</section>
+
+<!-- SECTION 2 -->
+<section id="section1" class="intro-section">
+
+<div class="flex-container">
+
+<div class="image-column">
+
+<div class="image-block">
+    <img src="images/Id Card.jpg"
+    alt="Id Card"
+    class="side-image">
+
+    <p class="caption">
+    Retrived from, Impronte: Italian Imprints in Windsor. Madelyn DellaValle.
+    </p>
+</div>
+
+<div class="image-block">
+    <img src="images/Erie Street Map.jpeg"
+    alt="Map of Erie Street East"
+    class="side-image">
+
+    <p class="caption">
+    Map of Erie Street East. Retrived from, Impronte: Italian Imprints in Windsor. Madelyn DellaValle.
+    </p>
+</div>
+
+</div>
+
+<div class="text-container">
+
+<h2>The Second Wave of Italian Immigration​</h2>
+
+<p>
+During World War II, concerns about fascism led to a halt in Italian immigration to Canada and the United States. Following World War II, economic opportunities encouraged immigration to Canada. Nearly 75% of Windsor's Italian population immigrated between 1940 and 1970.
+</p>
+
+<p>
+Erie Street quickly became an expanding neighbourhood for Italian immigrants with numerous restaurants, bars, bakeries, and grocery stores. Erie Street was a cultural hub for Italian migrants and attracted non-Italians to its businesses and shops. As well, Erie Street became a place for Italian Americans to get a taste of home when their Little Italy declined.  Many of these families created and ran their own businesses that hold legacies in Windsor today.
+</p>
+
+<p>
+Windsor-style pizza emerged during this era. What the Windsor pizza industry became was not just about the ingredients themselves, but also about a distinct style, the specific sourcing of those ingredients, established business practices, family enviorments, and a loyal customer base.
+</p>
+
+</div>
+
+</div>
+
+<div class="header-line"></div>
+
+</section>
+
+<!-- SECTION 3 -->
+<section class="intro-section">
+
+<div class="flex-container">
+
+<div class="image-column">
+
+<div class="image-block">
+<img src="images/Volcanos Pizza.avif"
+alt="Volcanos Pizza"
+class="side-image">
+
+<p class="caption">
+Photo of Eugenio Manza and Frank Gualteri inside Volcano Pizzeria. Rina Hayreek/Arcata Pizzeria. Retrived from CBC News.
+</p>
+</div>
+
+<div class="image-block">
+<img src="images/Photo of Gino.jpg"
+alt="Image of Gino"
+class="side-image">
+
+<p class="caption">
+Eugenio Manza, owner of Volcano Pizzeria, at work. Courtesy of Joe and Rosemary Bonasso. Retrived from Impronte: Italian Imprints in Windsor. Madelyn DellaValle.
+</p>
+</div>
+
+<div class="image-block">
+<img src="images/Photo of Frank.jpg"
+alt="Photo of Frank"
+class="side-image">
+
+<p class="caption">
+Photo of Frank Gualtieri, one of the owners of Volcano Pizzeria. (Gualtieri Family). Retrived from CBC News.
+</p>
+</div>
+
+<div class="image-block">
+<img src="images/Photo of Employees.jpg"
+alt="Photo of Employees"
+class="side-image">
+
+<p class="caption">
+Employees at work in the kitchen of Volcano Pizzeria. Frank Tedesco (near the oven), future owner of Franco's resturant, began his career at Volcano. Courtesy of Joe and Rosemary Bonasso. Retrived from Impronte: Italian Imprints in Windsor. Madelyn DellaValle.
+</p>
+</div>
+
+</div>
+
+<div class="text-container">
+
+<h2>The Creation of Windsor Style Pizza- Volcano Pizzeria</h2>
+
+<p>
+In 1957, Eugenio Manza and Frank Gualterri opened Volcanos Pizzeria, which is credited as the originator of  Windsor Style Pizza. Eugenio (Gino) grew up in Calabria, working in the fields in Italy, learning to work hard from a young age. At 19, Gino moved to Manitoba with no money to work for CP Railroad. After 3 years, he moved to Windsor to be closer to his brother-in-law, Stan Cundari, a successful businessman who owned a pizza company in Detroit. Gino saw how popular Pizza was in Detroit and wanted to bring something new to Windsor. Gino worked hard to find the right equipment and a bank willing to lend him a loan. Needing help, Gino chose to work with his cousin, Frank Gualterri, borrowed money from family, and found a supplier who gave him 1 year to pay for the equipment. 
+</p>
+
+<p>
+The key to Volcanos' successful start was what became common among future Windsor pizza companies: hard work, a family environment, a loyal customer base, and a signature pizza style. Gino worked long hours to start his business because he was concerned about its opening amid a recession and uncertainty about customer response. Gino also realized that for his business to be successful, he needed strong employees to run his pizzeria. He chose people who were honest, friendly, and dependable. In 1957, Volcanos opened and was instantly successful, even without formal advertising, as he could not afford it. Customers quickly lined up along the street, and word of the pizza spread. The company quickly expanded from 60 seats to 400 seats and had a strong family environment for customers and employees. Employees would often have staff parties while customers ordered the pizza. When asked what he enjoyed about Volcanos, he stated, “I liked interacting with customers and was proud to see the young boys and girls I hired with no job experience later graduate and move on to become teachers, doctors, and lawyers.” Most importantly, Volcanos Pizzeria was the first to shred pepperoni, add cornmeal to its crust, and use canned mushrooms. 
+</p>
+
+<p>
+Many of Windsor's pizza makers got their start at Volcanos, such as Frank Tedesco, owner of Franco’s. Although Volcanos closed in 1986, Gino's legacy remains deeply rooted in the Windsor pizza industry. Volcanos set a standard for Windsor Pizza business practices, starting with hard work and creating a family environment. Many Windsor pizzerias today have deep connections with their staff, which leads to a strong working team. In addition, Volcanos valued its customers, valued interactions, and relied on word of mouth to keep the business alive. Finally, Volcanos set the standard for how the pizza was made, which modern Windsor pizzerias follow.
+</p>
+
+</div>
+
+</div>
+
+<div class="header-line"></div>
+
+</section>
+
+<!-- SECTION 4 -->
+<section class="intro-section">
+
+<div class="flex-container">
+
+<div class="text-container">
+
+<h2>Early Success of Windsor Pizzerias</h2>
+
+<p>
+Arcata Pizza, Capri, Armando's, Francos, Naples, and Antonino’s are long-standing, widespread pizza chains in Windsor, all with roots dating back to the 1950s and 1960s. Many of the Windsor pizzerias today trace back to Tony Ciaravino, who established the first pizzeria in South Windsor, Capri, on Dougall Rd. in 1959. Capri Pizzeria was a popular hangout for celebrities who performed at the Elmwood Hotel. Tony then went on to own Arcata in the sixties, where the owner of Antonino’s Pizza (created in honour of Tony) and Tony’s son, Joe Ciaravino, grew up. Tony held a firm foundation in three of the largest Windsor pizza companies: Windsor, Capri, Arcata, and Antonino’s. 
+</p>
+
+</div>
+
+<div class="image-column large-column">
+
+<img src="images/Our-Legacy-Pizzeria-front2.png" class="side-image large-image"
+alt="Photo of Tony and Vita">
+
+<p class="caption">
+Antonino and Vita Ciaravino in front of their original diner/pizzeria in Windsor, ON (Circa 1959).
+</p>
+
+</div>
+
+</div>
+
+<div class="header-line"></div>
+
+</section>
+
+<!-- SECTION 5 -->
+<section class="intro-section final-section">
+
+<div class="flex-container">
+
+<div class="text-container">
+
+<h2>Notoriety of Windsor-Style Pizza</h2>
+
+<p>
+From Volcanos to the many notable pizzerias of the 1950s to 60s, these pizzerias established a clear identity shared by the people of Windsor and across the border in Detroit. For example, a 1987 Detroit Free Press newspaper explains how Madonna ordered an authentic Windsor Pizza after a show in Detroit. Additionally, in a 1993 Detroit Free Press article, a former Windsor resident wrote to find a Windsor-style pizza in Detroit, like Franco's Pizza, with zesty sauce and generous toppings, not floppy like Detroit Pizza. 
+</p>
+
+<p>
+These early-established Windsor pizzerias were founded by Italian families, starting with Volcano Pizzeria, which inspired other family-owned Windsor-style pizzerias. As noted in the newspaper articles, Windsor Pizza was influential among Windsor citizens and carried its notoriety across the border, helping establish Windsor as a distinct identity following World War II. Starting with Volcanos, a culture of hard work, family environments, strong customer relationships, quality service, and distinct ingredients made the industry successful.
+</p>
+
+</div>
+
+<div class="image-column large-column">
+
+<div class="image-block">
+<img src="images/Madonna.jpg" class="side-image large-image"
+alt="Madonna">
+
+<p class="caption">
+This article was published in a 1987 copy of the Detroit Free Press. The article was written by Mike Duffy and detailed a party he was at with popstar Madonna. “If Madonna Parties, the World Parties Too,” Detroit Free Press (Detroit, Michigan), August 9, 1987.
+</p>
+</div>
+
+<div class="image-block">
+<img src="images/Windsor Pizza Fan.jpeg" class="side-image large-image"
+alt="Pizza Fan">
+
+<p class="caption">
+This newspaper clipping is part of the Eating Well column of the Detroit Free Press. John Tanasychuck, “Help a Windsor Pizza Fan,” Detroit Free Press, June 16, 1993. 
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- NAV -->
+<!-- NAV BUTTONS -->
+<div class="section-nav">
+
+    <a href="Early Immigration.html" class="cta-button">
+        Previous Section
+    </a>
+
+    <a href="The Creation of Windsor Pizza.html" class="cta-button">
+        Back to Top
+    </a>
+
+    <a href="Windsor Pizzerias.html" class="cta-button">
+        Next Section
+    </a>
+
+</div>
+
+<div class="scroll-spacer1"></div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- COLUMN 1 -->
+        <div class="footer-column">
+            <h4>A Slice of Windsor</h4>
+            <p>
+                A Slice of Windsor is an undergraduate research project created by Ally Peddie, B.A. (History), B.Ed. Projects like these are possible due to the funding of the Canadian Buisness History Association.
+            </p>
+        </div>
+  <!-- COLUMN 3 -->
+        <div class="footer-column">
+            <h4>Contact</h4>
+            <p>
+              To learn more about the Canadian Buisness History Association please vist <a href="https://www.cbha.ca/"> cbha.ca.</a> For any inquires related to information on this website please contact asliceofwindsor@gmail.com. 
+            </p>
+        </div>
+        <!-- COLUMN 3 -->
+        <div class="footer-column">
+            <h4>Attributions</h4>
+            <p>
+          Please visit the Attributions page to view all sources used on this site. All referenced content and images remain the property of their respective owners.
+            </p>
+        </div>
+
+    </div>
+
+<div class="footer-funding">
+    Funded by the Canadian Business History Association
+</div>
+
+
+<div class="footer-logos">
+
+    <img src="images/CBHA.jpg" alt="Canadian Business History Association logo" class="footer-logo">
+
+
+</div>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2026</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
